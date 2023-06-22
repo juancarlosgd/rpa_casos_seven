@@ -15,9 +15,9 @@ Main Required libraries:
 2. Configure internet explorer (path)
 3. create windows registry key **Computer\HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Internet Explorer\Main\FeatureControl\FEATURE_BFCACHE**
 
-  For 64-bit Windows installations,
-  HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Internet Explorer\Main\FeatureControl
-  Create key, FEATURE_BFCACHE, if not already present.
-  Inside this key, create a DWORD value named iexplore.exe with the value of 0. Even if QWORD is suggested for 64-bit machines, create a DWORD.
+For 64-bit Windows installations,
+HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Internet Explorer\Main\FeatureControl
+Create key, FEATURE_BFCACHE, if not already present.
+Inside this key, create a DWORD value named iexplore.exe with the value of 0. Even if QWORD is suggested for 64-bit machines, create a DWORD.
 
 4. parameterize configuration.ini file
